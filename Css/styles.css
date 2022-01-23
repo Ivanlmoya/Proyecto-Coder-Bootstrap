@@ -1,0 +1,102 @@
+
+/* Estilos del Header */
+.image{
+    background-image: url(https://www.redcopmaco.com/wp-content/uploads/2018/08/slideee-1.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.t-shadow{
+    text-shadow: 1px 1px 2px black;
+}
+
+.media-mobile{
+    width: max(190px,30vw);
+}
+
+.media-mapa{
+    width: 100%;
+    height:100%;
+    padding: 20px;
+}
+
+.text-h1{
+    color: white;
+    margin-top: 80px;
+    background-color: rgba(166, 21, 185, 0.507);
+    width: 90%;
+}
+/* Fin estilos Header */
+/* Estilos Quienes */
+.text-titulos{
+    color: white;
+    margin-top: 80px;
+    background: linear-gradient(
+        90deg
+        , rgba(2,0,36,1) 0%, rgba(117,8,131,1) 0%, rgba(155,65,193,1) 100%);
+    width: 90%;
+    text-align: center;
+}
+.boton-p{
+    width: 20%;
+}
+.tamaño{
+    height: 500px;
+}
+/* Fin estilos Quienes */
+/* Estilos Comercios */
+.tamaño2{
+    height: 500px;
+    background: radial-gradient(circle, rgba(255,154,0,1) 0%, rgba(255,130,4,1) 36%, rgba(221,117,12,1) 60%, rgba(199,115,26,1) 81%, rgba(163,88,9,1) 100%);
+}
+/* Fin estilos Comercios */
+/* Estilos Datos */
+.tamaño3{
+    height: 500px;
+    background-color: black;
+}
+
+.text-parrafos{
+    color: white;
+}
+
+.text-copyright{
+    color: white;
+    text-align: center;
+}
+/* Fin estilo Datos */
+
+.imagen-tamaño{
+    width:50%;
+    height:50%;
+    margin: auto;
+}
+
+@media (min-width: 501px) and (max-width: 1200px){
+
+    .tamaño2{
+        height: 600px;
+    }
+
+    .texto-historia{
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .tamaño2{
+        height: 700px;
+    }
+
+    .media-corralon{
+        height: 0%;
+        width: 0%;
+        display: none;
+    }
+
+
+}
